@@ -1,1 +1,38 @@
 /*  your css code here. If applicable */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0; /* Light background for contrast */
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    border: 2px solid #333;
+    border-radius: 15px;
+    background-color: lightgray;
+}
+
+.red, .green, .yellow {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%; /* Make blocks circular */
+    margin: 10px; /* Space between the blocks */
+}
+
+.red {
+    background-color: red;
+}
+
+.green {
+    background-color: green;
+}
+
+.yellow {
+    background-color: yellow;
+}
